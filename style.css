@@ -46,3 +46,53 @@ h2{
 h3{text-align: center;}
  
 *{color: rgb(0, 44, 139)}
+
+
+@media (max-width:960px)
+{
+h2{color: gold;
+background-color: firebrick;
+
+}
+h1 {color: rgb(236, 76, 13)}
+.container{
+    width: 550px;
+    padding: 20px 30px;
+}
+.dt{display: none;}
+
+.header{background-color: rgb(22, 201, 186);
+float: left;
+width: 250px;
+height: 350px;
+margin-top: 20px;
+line-height: 50px
+}
+
+
+.table{background-color: grey;
+ float: left;
+ margin-top: 20px;
+width: 300px;
+height: 350px;
+}
+
+    .middle{background-color: rgb(128, 125, 126) ;
+    float: left;
+    width: 250px;
+    height: 350px;
+}
+
+
+    .footer{background-color: darkseagreen;
+float: right;
+width: 300px;
+height: 350px;
+}
+
+h2{
+    margin-top: 0px}
+
+
+}
+
